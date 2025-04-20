@@ -1,0 +1,1 @@
+paste -d '\n' <(head -n 2455 sen-wmt24_encs-t2t2020sent-beam4.txt) <(head -n 2455 sen-wmt24_encs-t2t2020sent-beam10.txt) <(head -n 2455 sen-wmt24_encs-t2t2020sent-beam25.txt) | tr '\t' '\n' > sen-wmt24_encs-sent.txt
