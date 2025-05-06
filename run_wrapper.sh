@@ -5,4 +5,4 @@ export CUBLAS_WORKSPACE_CONFIG=:4096:8
 conda activate /lnet/work/people/jon/comet2
 export TOKENIZERS_PARALLELISM=false
 export HOME=/lnet/work/people/jon/comet2
-python3 ../comet_mbr.py $@
+python3 comet_mbr.py $@
